@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite">
+    <listeners>
+        <listener class-name="atm.assignment.listener.TestListener"/>
+    </listeners>
+
+    <test name="Session Tests">
+        <classes>
+            <class name="atm.assignment.tests.SessionTests"/>
+        </classes>
+    </test>
+
+    <test name="Withdraw Tests">
+        <classes>
+            <class name="atm.assignment.tests.WithdrawTests"/>
+        </classes>
+    </test>
+
+    <test name="Deposit Tests">
+        <classes>
+            <class name="atm.assignment.tests.DepositTests"/>
+        </classes>
+    </test>
+
+    <test name="Balance Tests">
+        <classes>
+            <class name="atm.assignment.tests.BalanceTests"/>
+        </classes>
+    </test>
+
+    <test name="Logout Tests">
+        <classes>
+            <class name="atm.assignment.tests.LogoutTests"/>
+        </classes>
+    </test>
+
+    <test name="End Tests">
+        <classes>
+            <class name="atm.assignment.tests.EndTests"/>
+        </classes>
+    </test>
+</suite>
